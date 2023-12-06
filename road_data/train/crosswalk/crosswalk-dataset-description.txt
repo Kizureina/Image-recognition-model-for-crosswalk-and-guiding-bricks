@@ -1,0 +1,5 @@
+The crosswalk data set consists of 4 classes: front (C1), left half (C2),
+ right half (C3) and no crosswalk (C4). Each class contains 150 samples that 
+can be used for classification problems. Images have a resolution of 1280x720 
+without preprocessing. The files are named class_p1_imageNumber.jpg, for example, 
+c3_p1_1.jpg corresponds to image 1 of class 3.
