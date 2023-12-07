@@ -132,6 +132,7 @@ net.to(device)
 loss_function = nn.CrossEntropyLoss()
 optimizer = optim.Adam(net.parameters(), lr=0.0001)
 
+# print(net)
 best_acc = 0.0
 save_path = 'road.pth'
 for epoch in range(20):
